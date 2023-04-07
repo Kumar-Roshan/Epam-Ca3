@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-07T11:09:07 IST" name="All Test Suite" finished-at="2023-04-07T11:09:47 IST" duration-ms="40405">
+    <groups>
+    </groups>
+    <test started-at="2023-04-07T11:09:07 IST" name="C:/Users/kumar/IdeaProjects/SwagLabProject/src/test/java/org/example/GmailLoginTest.java" finished-at="2023-04-07T11:09:30 IST" duration-ms="23374">
+      <class name="org.example.GmailLoginTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.String)[pri:0, instance:org.example.GmailLoginTest@694abbdc]" started-at="2023-04-07T11:09:07 IST" name="setupDriver" finished-at="2023-04-07T11:09:18 IST" duration-ms="11123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="getTitleFromPage()[pri:0, instance:org.example.GmailLoginTest@694abbdc]" started-at="2023-04-07T11:09:18 IST" name="getTitleFromPage" finished-at="2023-04-07T11:09:30 IST" duration-ms="11915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleFromPage -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:org.example.GmailLoginTest@694abbdc]" started-at="2023-04-07T11:09:30 IST" name="closeDriver" finished-at="2023-04-07T11:09:30 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- org.example.GmailLoginTest -->
+    </test> <!-- C:/Users/kumar/IdeaProjects/SwagLabProject/src/test/java/org/example/GmailLoginTest.java -->
+    <test started-at="2023-04-07T11:09:30 IST" name="test2" finished-at="2023-04-07T11:09:47 IST" duration-ms="16993">
+      <class name="org.example.GmailLoginTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.String)[pri:0, instance:org.example.GmailLoginTest@36902638]" started-at="2023-04-07T11:09:30 IST" name="setupDriver" finished-at="2023-04-07T11:09:35 IST" duration-ms="5042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="getTitleFromPage()[pri:0, instance:org.example.GmailLoginTest@36902638]" started-at="2023-04-07T11:09:35 IST" name="getTitleFromPage" finished-at="2023-04-07T11:09:47 IST" duration-ms="11691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleFromPage -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:org.example.GmailLoginTest@36902638]" started-at="2023-04-07T11:09:47 IST" name="closeDriver" finished-at="2023-04-07T11:09:47 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- org.example.GmailLoginTest -->
+    </test> <!-- test2 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
